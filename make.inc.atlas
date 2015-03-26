@@ -40,7 +40,7 @@ LDFLAGS   =     $(FPIC)              -fopenmp
 
 # Depending on how ATLAS and LAPACK were compiled, you may need one or more of:
 # -lifcore -ldl -lf2c -lgfortran
-LIB       = -llapack -lf77blas -lcblas -latlas -lcublas -lcudart -lstdc++ -lm -lgfortran -lifcore
+LIB       = -llapack -lf77blas -lcblas -latlas -lcublas -lcudart -lstdc++ -lm -lgfortran
 
 # define library directories preferably in your environment, or here.
 #LAPACKDIR ?= /opt/lapack
